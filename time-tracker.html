@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Tracker</title>
+</head>
+<body>
+    <h1>Time Tracker</h1>    
+    <form action="mailto:bela.panczel@gmail.com" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>Add a record to your time tracking</legend>
+            <div>
+                <label for="">What is the title of the activity?</label>
+                <input type="text" name="activity">
+            </div>
+            <div>
+                <label for="">Date</label>
+                <input type="date" name="date">
+            </div>
+            <div>
+                <label for="">Start</label>
+                <input type="time" name="start">
+            </div>
+            <div>
+                <label for="">End</label>
+                <input type="time" name="end">
+            </div>
+            <div>
+                <label for="">What is the main area of focus?</label>
+                <input type="radio" id="contactChoice1" name="seventh" />
+                <label>Seventh Chakra</label>
+
+                <input type="radio" id="contactChoice2" name="sixth" />
+                <label>Sixth Chakra</label>
+
+                <input type="radio" id="contactChoice3" name="fifth" />
+                <label>Fifth Chakra</label>
+
+                <input type="radio" id="contactChoice4" name="fourth" />
+                <label>Fourth Chakra</label>
+
+                <input type="radio" id="contactChoice5" name="third" />
+                <label>Third Chakra</label>
+
+                <input type="radio" id="contactChoice6" name="second" />
+                <label>Second Chakra</label>
+
+                <input type="radio" id="contactChoice7" name="first" />
+                <label>First Chakra</label>
+            </div>
+            <div>
+                <label for="">Focus level?</label>
+                <input type="range" min="0" max="10" step="1" name="focus">
+            </div>
+            <div>
+                <input type="submit" value="Add">
+            </div>           
+        </fieldset>       
+    </form>
+    
+</body>
+</html>
